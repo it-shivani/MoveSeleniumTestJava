@@ -22,7 +22,7 @@ Execution:
 Two ways to execute the project:
 1. Import the project to NetBeans, build the project(right click on project and click on build) and from IDE run the file : RealtorTestSuite.xml  
    a.) This would run both the test cases and test result will be displayed in the console. 
-   b.) Access the project folder structure (may be thru command line) and look-up for the test-output folder. This contains          the test execution report
+   b.) Access the project folder structure (may be thru command line) and look-up for the test-output folder. This contains          the test execution report    
    c.) test-output folder will be either located inside the project folder or inside the build folder. 
    
 2. On command line,   
