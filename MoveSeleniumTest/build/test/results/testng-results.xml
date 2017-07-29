@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RealtorTestSuite" duration-ms="26410" started-at="2017-07-29T19:36:25Z" finished-at="2017-07-29T19:36:52Z">
+    <groups>
+    </groups>
+    <test name="TestBuySearchResults" duration-ms="26410" started-at="2017-07-29T19:36:25Z" finished-at="2017-07-29T19:36:52Z">
+      <class name="com.realtortest.TestBuySearchResults">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.realtortest.TestBuySearchResults@490d6c15]" name="setup" is-config="true" duration-ms="3069" started-at="2017-07-29T12:36:22Z" finished-at="2017-07-29T12:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createInstances()[pri:0, instance:com.realtortest.TestBuySearchResults@490d6c15]" name="createInstances" is-config="true" duration-ms="108" started-at="2017-07-29T12:36:25Z" description="Create instances of the POMs and verify that user is on correct page before initiating the tests" finished-at="2017-07-29T12:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInstances -->
+        <test-method status="PASS" signature="test_Buy_Search_GreaterThanZero()[pri:0, instance:com.realtortest.TestBuySearchResults@490d6c15]" name="test_Buy_Search_GreaterThanZero" duration-ms="22887" started-at="2017-07-29T12:36:25Z" description="Search for homes to buy in Morgantown, WV and verify that result is &gt; 0" finished-at="2017-07-29T12:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Buy_Search_GreaterThanZero -->
+        <test-method status="PASS" signature="test_SelectionPrice_Same()[pri:0, instance:com.realtortest.TestBuySearchResults@490d6c15]" name="test_SelectionPrice_Same" duration-ms="3409" started-at="2017-07-29T12:36:48Z" description="Validate that the price in listing and selection for a selected home is same" finished-at="2017-07-29T12:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SelectionPrice_Same -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.realtortest.TestBuySearchResults@490d6c15]" name="cleanup" is-config="true" duration-ms="137" started-at="2017-07-29T12:36:52Z" finished-at="2017-07-29T12:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.realtortest.TestBuySearchResults -->
+    </test> <!-- TestBuySearchResults -->
+  </suite> <!-- RealtorTestSuite -->
+</testng-results>

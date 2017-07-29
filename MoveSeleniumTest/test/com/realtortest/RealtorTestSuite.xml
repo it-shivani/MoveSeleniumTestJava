@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RealtorTestSuite">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+-->    <test name="TestBuySearchResults">
+        <classes>
+            <class name="com.realtortest.TestBuySearchResults" />
+             <methods>
+                 <include name="test_Buy_Search_GreaterThanZero"  />
+                 <include name="test_SelectionPrice_Same"  /> 
+             </methods>
+        </classes>
+       </test>
+    
+    
+<!--    <test name="TestBuySearchResults">
+        <packages>
+            <package name="com.realtortest"/>
+        </packages>
+    </test>-->
+
+</suite>
