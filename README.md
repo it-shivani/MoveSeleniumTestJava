@@ -1,5 +1,5 @@
 # MoveSeleniumTestJava
-Test Suite to execute test cases for the site Realtor.com
+Test Suite to execute test cases for the site abc.com
 
 Problem statement: Create test cases that :
  1. Verify that the search result for a given city gives more that 0 results 
